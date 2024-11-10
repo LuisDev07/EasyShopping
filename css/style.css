@@ -1,0 +1,224 @@
+
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    
+  }
+  
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  header .logo h1 a:hover {
+    font-size: 31px;
+    cursor: pointer;
+    color: #ffcc00;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+    color: cyan;
+  }
+  
+  
+  .banner {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+  .banner img:hover{
+   width: 23%;
+   cursor: pointer;
+  }
+  .contenido-principal ul{
+    font-size: 15px;
+    margin-top: 15px;
+    list-style: none;
+  }
+  .contenido-principal ul:hover{
+    color:#853d3d;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contenido-principal {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer .mapa-sitio ul {
+    list-style: none;
+  }
+  
+  footer .mapa-sitio ul li {
+    margin: 5px 0;
+  }
+  
+  footer .mapa-sitio ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .mapa-sitio ul li a:hover {
+    text-decoration: underline;
+  }
+
+
+  /*css de productos*/
+  .categorias{
+    margin-bottom: 15px;
+  }
+  .categorias a{
+    text-decoration: none;
+    color: black;
+  }
+  .categorias button{
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .categorias a:hover{
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+  }
+
+  #electronica{
+    
+    background-color:aliceblue ;
+    margin-bottom: 20px;
+  }
+  #ropa{
+    margin-bottom: 20px;
+    background-color:rgb(222, 230, 236);
+  }
+  #Hogar{
+    margin-bottom: 20px;
+    background-color: rgb(207, 220, 231);
+  }
+  
+
+  .producto{
+   margin-bottom: 15px;
+   padding: 15px;
+  }
+  .producto button{
+    color:black;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .producto button:hover{
+    color:white;
+    background-color: #333;
+    
+    font-size: 16px;
+  }
+  .productos img{
+    width: 20%;
+    
+  }
+  .productos img:hover{
+    width: 21%;
+    cursor: pointer;
+  }
+  
+  /*como comprar*/
+.como-comprar h2{
+    font-size: 30px;
+}
+  .como-comprar li{
+    margin-bottom: 5px;
+    font-size: 17px;
+    list-style: none;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+th, td {
+    border: 1px solid gray;
+    padding: 8px; 
+    text-align: left; 
+    padding: 15px;
+}
+ caption{
+    font-family: monospace;
+    font-size: 25px;
+    color:white;
+    text-shadow: 0 0 10px mediumvioletred;
+    margin-bottom: 15px;
+}
+
+th{
+    background-color:lightgreen;
+    color: black;
+    font-family: sans-serif;
+}
+tr:nth-child(odd) {
+    background-color: #cccccb; 
+    color: darkcyan;
+}
+tr:nth-child(even) {
+    background-color: #d1e7dd; 
+    color: darkslateblue;
+}
+/*quienes somos*/
+.quienes-somos{
+    margin: 15px;
+}
+.quienes-somos img{
+    width: 40%;
+
+}
+.quienes-somos h1{
+    font-size: 30px;
+    
+    
+
+}
